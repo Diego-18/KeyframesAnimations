@@ -1,0 +1,345 @@
+/**
+ * @descripcion: Libreria de Animaciones en CSS3 Nativo con Keyframes
+ * @author: Diego Chavez <ingdiegochavez18@gmail.com> 
+ * @license: GNU GPL v3,  Licencia PÃºblica General de GNU 3.
+ * @license: CC BY-SA, Creative  Commons  AtribuciÃ³n  - CompartirIgual (CC BY-SA) 4.0 Internacional.
+ * @category Libreria
+ * @package: sty_Keyframes.css
+ * @since: 
+ * @Fecha de Modificacion: 13/04/2020
+ * @version: 0.0.2
+ * @Fecha de Creacion: 10/04/2020
+ **/
+
+
+/**
+		ESTA LIBRERIA ESTÃ� HECHA CON FINES ACADEMICOS, SU DISTRIBUCIÃ“N ES TOTALMENTE
+	GRATUITA, BAJO LA LICENCIA GNU GPL v3 y CC BY-SA v4 Internacional, CUALQUIER,
+	ADAPTACIÃ“N MODIFICACIÃ“N Y/O MEJORA QUE SE HAGA APARTIR DE ESTE CODIGO DEBE SER 
+	NOTIFICADA Y ENVIADA A LA FUENTE, COMUNIDAD O REPOSITORIO DE LA CUAL FUE OBTENIDA
+	Y/O A SU CREADOR:
+ 		* Diego Chavez 		ingdiegochavez18@gmail.com
+*/
+
+@-moz-keyframes flash{
+	50%{
+		opacity: 1;
+	}
+	25%, 75%{
+		opacity: 0;
+	}
+}
+
+@-moz-keyframes rebote{
+	20%, 50%, 80%{
+		-moz-transform:translateY(0px);
+	}
+	40%{
+		-moz-transform:translateY(-45px);
+	}
+	60%{
+		-moz-transform:translateY(-25px);
+	}
+}
+
+@-moz-keyframes chicle{
+	30%{
+		-moz-transform: scaleX(1.25) scaleY(0.75);
+	}
+	50%{
+		-moz-transform: scaleX(0.75) scaleY(1.25);
+	}
+	60%{
+		-moz-transform: scaleX(1.15) scaleY(0.85);
+	}
+}
+
+@-moz-keyframes giroX{
+	0%{
+		opacity: 0.5;
+		-moz-transform: perspective(200px)
+						rotateX(90deg);
+	}
+
+	40%{
+		opacity: 0.5;
+		-moz-transform: perspective(200px)
+						rotateX(-20deg);
+	}
+
+	70%{
+		opacity: 0.5;
+		-moz-transform: perspective(200px)
+						rotateX(20deg);
+	}
+}
+
+@-moz-keyframes giro{
+	40%{
+		-moz-transform: perspective(300px)
+						translateZ(120px)
+						rotateY(170deg);
+	}
+
+	50%{
+		-moz-transform: perspective(300px)
+						translateZ(120px)
+						rotateY(190deg);
+	}
+
+	80%{
+		-moz-transform: perspective(300px)
+						translateZ(0px)
+						rotateY(360deg);
+	}
+	100%{
+		-moz-transform: perspective(300px)
+						rotateY(360deg);
+	}
+}
+
+@-moz-keyframes click{
+	25%, 75%{
+		-moz-transform: scale(0.8);
+	}
+	50%{
+		-moz-transform: scale(1.1);
+	}
+}
+
+@-moz-keyframes vibracionV{
+	5%, 25%, 45%, 65%, 85%{
+		-moz-transform: translateY(-10PX);
+	}
+	15%, 35%, 55%, 75%{
+		-moz-transform: translateY(10PX);
+	}
+}
+
+@-moz-keyframes vibracionH{
+	10%, 30%, 50%, 70%, 90%{
+		-moz-transform: translateX(-10PX);
+	}
+	20%, 40%, 60%, 80%{
+		-moz-transform: translateX(10PX);
+	}
+}
+
+@-moz-keyframes cartel{
+	20%{
+		-moz-transform: rotate(15deg);
+	}
+	40%{
+		-moz-transform: rotate(-10deg);
+	}
+	60%{
+		-moz-transform: rotate(5deg);
+	}
+	80%{
+		-moz-transform: rotate(-3deg);
+	}
+}
+
+@-moz-keyframes balanceo{
+	20%{
+		-moz-transform: scale(0.7)
+						rotate(-6deg);
+	}
+	30%, 70%{
+		-moz-transform: scale(1.1)
+						rotate(6deg);
+	}
+	50%, 90%{
+		-moz-transform: scale(1.1)
+						rotate(-6deg);
+	}
+}
+
+@-moz-keyframes vaiven{
+	15%{
+		-moz-transform: rotate(-10deg)
+						translateX(-25%);
+	}
+	30%{
+		-moz-transform: rotate(-5deg)
+						translateX(20%);
+	}
+	45%{
+		-moz-transform: rotate(-3deg)
+						translateX(-10%);
+	}
+	60%{
+		-moz-transform: rotate(2deg)
+						translateX(5%);
+	}
+	75%{
+		-moz-transform: rotate(-1deg)
+						translateX(-3%);
+	}
+}
+
+@-moz-keyframes reboteIn{
+	0%{
+		opacity: 0;
+		-moz-transform: scale(0.3);
+	}
+	50%{
+		opacity: 1;
+		-moz-transform: scale(1.2);
+	}
+	70%{
+		-moz-transform: scale(0.9);
+	}
+}
+
+@-moz-keyframes salida{
+	20%{
+		opacity: 1;
+		-moz-transform:translateY(20px);
+	}
+	100%{
+		opacity: 0;
+		-moz-transform:translateY(-1000px);
+	}
+}
+
+@-moz-keyframes giroSimple{
+	0%{
+		opacity: 0;
+		-moz-transform: rotate(-200deg);
+	}
+}
+
+@-moz-keyframes rotativoIn{
+	0%{
+		opacity: 0;
+		-moz-transform: translateX(-100%)
+						rotate(-260deg);
+	}
+}
+
+@-moz-keyframes rotativoOut{
+	100%{
+		opacity: 0;
+		-moz-transform: translateX(100%)
+						rotate(-260deg);
+	}
+}
+
+@-moz-keyframes velozIn{
+	0%{
+		opacity: 0;
+		-moz-transform: translateX(-200%)
+						skewX(30deg);
+	}
+	60%{
+		opacity: 1;
+		-moz-transform: translateX(-20%)
+						skewX(-30deg);
+	}
+	80%{
+		-moz-transform: translateX(0%)
+						skewX(15deg);
+	}
+}
+
+@-moz-keyframes velozOut{
+	15%{
+		opacity: 1;
+	}
+
+	100%{
+		opacity: 0;
+		-moz-transform: translateX(200%)
+						skewX(-70deg);
+	}
+}
+
+@-moz-keyframes descolgado{
+	20%, 60%{
+		-moz-transform: rotate(80deg);
+	}
+	40%{
+		-moz-transform: rotate(60deg);
+	}
+	80%{
+		opacity: 1;
+		-moz-transform: rotate(80deg);
+	}
+	100%{
+		-moz-transform: translateY(400px);
+		opacity: 0;
+	}
+}
+
+@-moz-keyframes aparicion{
+	0%{
+		opacity: 0;
+	}
+	50%{
+		opacity: 0.8;
+	}
+}
+
+@-moz-keyframes moverflecha{
+	25%{
+		left: -15px;
+		-moz-transform: rotate(0deg);
+	}
+	65%{
+		left: -15px;
+		-moz-transform:rotate(180deg);
+	}
+	90%{
+		-moz-transform: rotate(180deg);
+	}
+}
+
+@-moz-keyframes movercaja{
+	50%{
+		-moz-transform: translateY(-3px);
+	}
+}
+
+@-moz-keyframes moversombra{
+	50%{
+		opacity: 1;
+		-moz-transform: translateY(3px);
+	}
+}
+
+@-moz-keyframes slidein {
+  from {
+    margin-left:100%;
+    width:300%
+  }
+
+  75% {
+    font-size:300%;
+    margin-left:25%;
+    width:150%;
+  }
+
+  to {
+    margin-left:0%;
+    width:100%;
+  }
+}
+
+@-webkit-keyframes slidein {
+  from {
+    margin-left:100%;
+    width:300%
+  }
+
+  75% {
+    font-size:300%;
+    margin-left:25%;
+    width:150%;
+  }
+
+  to {
+    margin-left:0%;
+    width:100%;
+  }
+}
