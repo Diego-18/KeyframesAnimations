@@ -22,3 +22,5 @@ Animation Library with CSS Keyframes.
 | [<img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/firefox/firefox_48x48.png" alt="Firefox" width="24px" height="24px" />](https://godban.github.io/browsers-support-badges/)</br>Firefox | 
 | --------- |
 | last 2 versions |
+
+***The use of the bootstrap v3 library is optional.*** 
