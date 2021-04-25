@@ -1,58 +1,53 @@
 @import url('dist/sty_Keyframes.css');
 
-* {
-    margin:0;
-    padding:0;
-}
-
 .encabezado{
     background: #547;
     box-shadow: 1px 0px 1px 0px rgba(0,0,0,0.8);
-    top: 0px;
     color: #fff;
     font-size: 16px;
-    height: 5%;
-    padding-top: 1%;
-    position: fixed;
+    padding: 2%;
     text-align: center;
     text-shadow:1px 1px 0px rgba(0,0,0,0.8);
-    width:100%;
 }
 
 .footer{
     background: #547;
-    bottom: 0px;
     color: #fff;
     font-size: 16px;
-    height: 14%;
     text-align: center;
     text-shadow:1px 1px 0px rgba(0,0,0,0.8);
-    position: fixed;
-    width:100%;
+	margin-top: 5%;
+	padding: 2%;
 }
 
 .container{
-	background-color: #547;
+	background-color: #fff;
 	border-radius: 8px;
-	color: #fff;
-	display: inline-block;
+	color: #547;
 	font-family: 'Arial';
 	font-weight: bolder;
-	height: 50px;
 	margin: 25px 0 0 20px;
 	position: relative;
 	text-align: center;
 	vertical-align: middle;
-	width: 120px;
+}
+
+.container_effect{
+	background-color: #547;
+	border-radius: 8px;
+	color: #fff;
+	font-family: 'Arial';
+	font-weight: bolder;
+	margin: 25px 0 0 20px;
+	position: relative;
+	text-align: center;
+	vertical-align: middle;
+	padding: 1%;
 }
 
 table{
     text-align: center;
     margin: 5%;
-}
-
-p{
-	padding-top: 15px;
 }
 
 .e1:hover{

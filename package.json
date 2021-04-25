@@ -1,0 +1,9 @@
+{
+  "nanpme": "KeyframesAnimations",
+  "version": "1.0.1",
+  "author": "Diego Chavez <ingdiegochavez18@gmail.com>",
+  "description": "",
+  "dependencies": {
+    "bootstrap3": "^3.3.5"
+  }
+}
