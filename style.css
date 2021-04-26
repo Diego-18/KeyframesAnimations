@@ -57,85 +57,132 @@ table{
 }
 
 .e2:hover{
-	-moz-animation: 2s rebote 1 ;
+	-moz-animation: 2s rebote 1;
+	-webkit-animation: 2s rebote 1;
+	-o-animation: 2s rebote 1;
 }
 
 .e3:hover{
-	-moz-animation: 2s chicle 1 ;
+	-moz-animation: 2s chicle 1;
+	-webkit-animation: 2s chicle 1;
+	-o-animation: 2s chicle 1;
 }
 
 .e4:hover{
 	-moz-animation: 2s giroX 1;
 	-moz-backface-visibility:visible;
+	-webkit-animation: 2s giroX 1;
+	-webkit-backface-visibility:visible;
+	-o-animation: 2s giroX 1;
+	-o-backface-visibility:visible;
 }
 
 .e5:hover{
 	-moz-animation: 2s giro 1;
 	-moz-backface-visibility:visible;
-	/*-moz-backface-visibility:hidden;*/
+	-webkit-animation: 2s giro 1;
+	-webkit-backface-visibility:visible;
+	-o-animation: 2s giro 1;
+	-o-backface-visibility:visible;
 }
 
 .e6:hover{
 	-moz-animation: 2s salida 1;
+	-webkit-animation: 2s salida 1;
+	-o-animation: 2s salida 1;
 }
 
 .e7:hover{
 	-moz-animation: 5s vibracionV infinite;
+	-webkit-animation: 5s vibracionV infinite;
+	-o-animation: 5s vibracionV infinite;
 }
 
 .e8:hover{
 	-moz-animation: 5s vibracionH infinite;
+	-webkit-animation: 5s vibracionH infinite;
+	-o-animation: 5s vibracionH infinite;
 }
 
 .e9:hover{
 	-moz-animation: 2s cartel 1;
 	-moz-transform-origin:top center;
+	-webkit-animation: 2s cartel 1;
+	-webkit-transform-origin:top center;
+	-o-animation: 2s cartel 1;
+	-o-transform-origin:top center;
 }
 
 .e10:hover{
 	-moz-animation: 2s balanceo infinite;
+	-webkit-animation: 2s balanceo infinite;
+	-o-animation: 2s balanceo infinite;
 }
 
 .e11:hover{
 	-moz-animation: 2s vaiven infinite;
+	-webkit-animation: 2s vaiven infinite;
+	-o-animation: 2s vaiven infinite;
 }
 
 .e12:hover{
 	-moz-animation: 1s reboteIn infinite;
+	-webkit-animation: 1s reboteIn infinite;
+	-o-animation: 1s reboteIn infinite;
 }
 
 .e13:hover{
 	-moz-animation: 0.7s click 1;
+	-webkit-animation: 0.7s click 1;
+	-o-animation: 0.7s click 1;
 }
 
 .e14:hover{
 	-moz-transform-origin: center;
 	-moz-animation: 0.7s giroSimple 1;
+	-webkit-transform-origin: center;
+	-webkit-animation: 0.7s giroSimple 1;
+	-o-transform-origin: center;
+	-o-animation: 0.7s giroSimple 1;
 }
 
 .e15:hover{
 	-moz-animation: 1s rotativoIn 1;
+	-webkit-animation: 1s rotativoIn 1;
+	-o-animation: 1s rotativoIn 1;
 }
 
 .e16:hover{
 	-moz-animation: 1s velozIn 1;
+	-webkit-animation: 1s velozIn 1;
+	-o-animation: 1s velozIn 1;
 }
 
 .e17:hover{
 	-moz-animation: 1s velozOut 1;
+	-webkit-animation: 1s velozOut 1;
+	-o-animation: 1s velozOut 1;
 }
 
 .e18:hover{
 	-moz-animation: 1s descolgado 1;
 	-moz-transform-origin: top left;
+	-webkit-animation: 1s descolgado 1;
+	-webkit-transform-origin: top left;
+	-o-animation: 1s descolgado 1;
+	-o-transform-origin: top left;
 }
 
 .e19:hover{
 	-moz-animation: 2s aparicion 1;
+	-webkit-animation: 2s aparicion 1;
+	-o-animation: 2s aparicion 1;
 }
 
 .arrow:before{
 	-moz-transition-duration: 0.3s;
+	-webkit-transition-duration: 0.3s;
+	-o-transition-duration: 0.3s;
 	content: '';
 	/*caracteristicas que forman el triangulo*/
 	border-color: 	transparent #547
@@ -151,19 +198,29 @@ table{
 
 .arrow:before{
 	-moz-animation: 1.5s moverflecha infinite;
+	-webkit-animation: 1.5s moverflecha infinite;
+	-o-animation: 1.5s moverflecha infinite;
 }
 
 .e21:hover{
 	-moz-animation: 1s rotativoOut 1;
+	-webkit-animation: 1s rotativoOut 1;
+	-o-animation: 1s rotativoOut 1;
 }
 
 .e22{
 	-moz-transition: translateX(0);
+	-o-transition: translateX(0);
+	-webkit-transition: translateX(0);
 }
 
 .e22:hover{
 	-moz-transform: translateY(-6px);
 	-moz-animation: 1.5s movercaja infinite;
+	-webkit-transform: translateY(-6px);
+	-webkit-animation: 1.5s movercaja infinite;
+	-o-transform: translateY(-6px);
+	-o-animation: 1.5s movercaja infinite;
 }
 
 .e22:before{
@@ -178,10 +235,16 @@ table{
 		ellipse, rgba(0, 0, 0, 0.35) 0%,
 				 rgba(0, 0, 0, 0) 80%);
 	-moz-transition-duration: 0.3s;
+	-webkit-transition-duration: 0.3s;
+	-o-transition-duration: 0.3s;
 }
 
 .e22:hover:before{
 	opacity: 0.4;
 	-moz-transform: translateY(6px);
 	-moz-animation: 1.5s moversombra infinite;
+	-webkit-transform: translateY(6px);
+	-webkit-animation: 1.5s moversombra infinite;
+	-o-transform: translateY(6px);
+	-o-animation: 1.5s moversombra infinite;
 }
