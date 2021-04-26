@@ -51,87 +51,87 @@ table{
 }
 
 .e1:hover{
-	-moz-animation: 0.7s flash 1;
+	-moz-animation: 1.0s flash 1;
     -webkit-animation: 0.7s flash 1;
     -o-animation: 0.7s flash 1;
 }
 
 .e2:hover{
-	-moz-animation: 2s rebote 1 ;
+	-moz-animation: 2.5s rebote 1 ;
 }
 
 .e3:hover{
-	-moz-animation: 2s chicle 1 ;
+	-moz-animation: 2.5s chicle 1 ;
 }
 
 .e4:hover{
-	-moz-animation: 2s giroX 1;
+	-moz-animation: 2.5s giroX 1;
 	-moz-backface-visibility:visible;
 }
 
 .e5:hover{
-	-moz-animation: 2s giro 1;
+	-moz-animation: 2.5s giro 1;
 	-moz-backface-visibility:visible;
 	/*-moz-backface-visibility:hidden;*/
 }
 
 .e6:hover{
-	-moz-animation: 2s salida 1;
+	-moz-animation: 2.5s salida 1;
 }
 
 .e7:hover{
-	-moz-animation: 5s vibracionV infinite;
+	-moz-animation: 5.5s vibracionV infinite;
 }
 
 .e8:hover{
-	-moz-animation: 5s vibracionH infinite;
+	-moz-animation: 5.5s vibracionH infinite;
 }
 
 .e9:hover{
-	-moz-animation: 2s cartel 1;
+	-moz-animation: 2.5s cartel 1;
 	-moz-transform-origin:top center;
 }
 
 .e10:hover{
-	-moz-animation: 2s balanceo infinite;
+	-moz-animation: 2.5s balanceo infinite;
 }
 
 .e11:hover{
-	-moz-animation: 2s vaiven infinite;
+	-moz-animation: 2.5s vaiven infinite;
 }
 
 .e12:hover{
-	-moz-animation: 1s reboteIn infinite;
+	-moz-animation: 1.5s reboteIn infinite;
 }
 
 .e13:hover{
-	-moz-animation: 0.7s click 1;
+	-moz-animation: 1.5s click 1;
 }
 
 .e14:hover{
 	-moz-transform-origin: center;
-	-moz-animation: 0.7s giroSimple 1;
+	-moz-animation: 1.5s giroSimple 1;
 }
 
 .e15:hover{
-	-moz-animation: 1s rotativoIn 1;
+	-moz-animation: 1.5s rotativoIn 1;
 }
 
 .e16:hover{
-	-moz-animation: 1s velozIn 1;
+	-moz-animation: 1.5s velozIn 1;
 }
 
 .e17:hover{
-	-moz-animation: 1s velozOut 1;
+	-moz-animation: 1.5s velozOut 1;
 }
 
 .e18:hover{
-	-moz-animation: 1s descolgado 1;
+	-moz-animation: 1.5s descolgado 1;
 	-moz-transform-origin: top left;
 }
 
 .e19:hover{
-	-moz-animation: 2s aparicion 1;
+	-moz-animation: 2.5s aparicion 1;
 }
 
 .arrow:before{
@@ -154,7 +154,7 @@ table{
 }
 
 .e21:hover{
-	-moz-animation: 1s rotativoOut 1;
+	-moz-animation: 1.5s rotativoOut 1;
 }
 
 .e22{
@@ -163,7 +163,7 @@ table{
 
 .e22:hover{
 	-moz-transform: translateY(-6px);
-	-moz-animation: 1.5s movercaja infinite;
+	-moz-animation: 2.5s movercaja infinite;
 }
 
 .e22:before{
@@ -177,11 +177,11 @@ table{
 	background: -moz-radial-gradient(center
 		ellipse, rgba(0, 0, 0, 0.35) 0%,
 				 rgba(0, 0, 0, 0) 80%);
-	-moz-transition-duration: 0.3s;
+	-moz-transition-duration: 1.5s;
 }
 
 .e22:hover:before{
 	opacity: 0.4;
 	-moz-transform: translateY(6px);
-	-moz-animation: 1.5s moversombra infinite;
+	-moz-animation: 2.5s moversombra infinite;
 }
