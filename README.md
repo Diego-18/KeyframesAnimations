@@ -2,13 +2,17 @@
 
 Animation Library with CSS Keyframes.
 
-## Use
+## Config
 
   Syntax for its operation in your files css
  
 <h4> Param1: duration of the animation ej: 5s.</h4>
 <h4> Param2: name animation. </h4>
 <h4> Param3: repetitions in which the animation will be executed ej: infinite, 1,2,3...</h4>
+
+## Use
+
+  Set the animation name to lowercase in the class of the element you want to have the effect, if the animation name uses two words set the style lowerCamelCase. 
 
 ## Example
 
@@ -25,4 +29,3 @@ https://keyframes-animations.netlify.app
 | --------- | --------- | --------- |--------- |
 | last 2 versions | last 2 versions | last 2 versions | last 2 versions |
 
-***The use of the bootstrap v3 library is optional.*** 

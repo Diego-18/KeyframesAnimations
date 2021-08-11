@@ -1,250 +1,332 @@
 @import url('dist/sty_Keyframes.css');
 
-.encabezado{
-    background: #547;
-    box-shadow: 1px 0px 1px 0px rgba(0,0,0,0.8);
-    color: #fff;
-    font-size: 16px;
-    padding: 2%;
-    text-align: center;
-    text-shadow:1px 1px 0px rgba(0,0,0,0.8);
+html, body{
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: flex-start;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	background: #CCCCCC;
+	font-family: 'PT Sans', sans-serif;
 }
 
-.footer{
-    background: #547;
-    color: #fff;
-    font-size: 16px;
-    text-align: center;
-    text-shadow:1px 1px 0px rgba(0,0,0,0.8);
-	margin-top: 5%;
+.gfont{
+	font-family: 'Pacifico', cursive;
+}
+
+nav{
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: flex-start;
+	width: 20rem;
+	height: auto;
+	background: #1B4F72;
+}
+
+.nav__description{
+	font-weight: bold;
+}
+
+.container__nav{
+	display: flex;
+	flex-flow: column wrap;
+	justify-content: space-between;
+	height: 40.8rem;
+	box-shadow: 2px 2px 2px #7c7c7c;
+}
+
+.container__items__nav{
+	text-align: center;
+}
+
+.img__nav{
+	width: 10%;
+}
+
+.title{
+	padding: 0rem 2rem;
+	color: #fff;
+}
+
+.code{
+	padding-bottom: 2.5rem;
+	justify-content: flex-end;
+}
+
+.container__ppal{
+	display: flex;
+	flex-flow: row wrap;
 	padding: 2%;
+	width: 70%;
 }
 
 .container{
-	background-color: #fff;
-	border-radius: 8px;
-	color: #547;
-	font-family: 'Arial';
-	font-weight: bolder;
-	margin: 25px 0 0 20px;
-	position: relative;
-	text-align: center;
-	vertical-align: middle;
+	flex-grow: 0.5;
+	justify-content: space-arround;
+	margin: 2%;
 }
 
-.container_effect{
-	background-color: #547;
-	border-radius: 8px;
+.cont__demo{
+	width: 70%;
+	padding: 15% 0%;
+	text-align: center;
+	justify-content: center;
+	flex-grow: 0.5;
+}
+
+#item__demo{
+	border: #1B4F72 solid 1px;
+	margin: 0% 25%;
+	background-color: #1B4F72;
 	color: #fff;
-	font-family: 'Arial';
-	font-weight: bolder;
-	margin: 25px 0 0 20px;
-	position: relative;
+	box-shadow: 2px 2px 2px #7c7c7c;
+}
+
+.item__description{
+	border: #1B4F72 solid 1px;
+	margin: 5% 25%;
+	color: #000;
+}
+
+.cont__items{
+	display: flex;
+	flex-direction: column;
+	
+	width: 20%;
+	margin-right: 5px;
+	height: 34rem;
+	overflow-y: auto;
+	background: #fff ;
+}
+
+.items__option{
 	text-align: center;
-	vertical-align: middle;
-	padding: 1%;
+	padding: 5%;
+	margin: 3%;
+	box-shadow: 2px 2px 2px #7c7c7c;
+	border: #1B4F72 solid 2px;
 }
 
-table{
-    text-align: center;
-    margin: 5%;
+.description{
+	text-transform: uppercase;
+	padding: 2%;
 }
 
-.e1:hover{
-	-moz-animation: 1.0s flash 1;
-    -webkit-animation: 0.7s flash 1;
-    -o-animation: 0.7s flash 1;
+@media screen and (max-width: 949px){
+	html, body{
+		display: flex;
+		flex-flow: column wrap;
+		overflow-y: hidden;
+	}
+
+	nav{
+		display: flex;
+		flex-flow: row wrap;
+		justify-content: center;
+		width: 100%;
+		height: 10%;
+		background: #1B4F72;
+	}
+
+	.container__nav{
+		display: flex;
+		flex-flow: row;
+		justify-content: space-between;
+		height: 20%;
+	}
+
+	.img__nav{
+		width: 10%;
+	}
+
+	.code{
+		padding-bottom: 2.5rem;
+		justify-content: flex-end;
+		text-align: center;
+	}
+
+	.img__responsive{
+		width: 30%;
+		padding-top: 20%;
+	}
+
+	.container__ppal{
+		display: flex;
+		flex-flow: row wrap;
+		width: 90%;
+		margin: 0% auto;
+	}
+
+	.cont__demo {
+		width: 60%;
+	}
 }
 
-.e2:hover{
-	-moz-animation: 2.5s rebote 1 ;
-	-webkit-animation: 2.5s rebote 1 ;
-	-o-animation: 2.5s rebote 1 ;
+@media screen and (min-width: 950px){
+	.cont__demo{
+		/* padding: 15% 0%; */
+	}
 }
 
-.e3:hover{
-	-moz-animation: 2.5s chicle 1 ;
-	-webkit-animation: 2.5s chicle 1 ;
-	-o-animation: 2.5s chicle 1 ;
+@media screen and (max-width: 700px){
+	.container__ppal{
+		display: flex;
+		flex-flow: column wrap;
+		width: 90%;
+		margin: 0% auto;
+	}
+
+	.cont__demo {
+		width: 100%;
+		/* padding: 15% 0%; */
+	}
+
+	.cont__items {
+		width: 95%;
+	}
+
+	.item__description{
+		display: none;
+	}
 }
 
-.e4:hover{
-	-moz-animation: 2.5s giroX 1;
+/**
+*	ANIMATIONES
+*/
+
+.flash{
+	-moz-animation: 2s flash infinite;
+    -webkit-animation: 2s flash infinite;
+    -o-animation: 2s flash infinite;
+}
+
+.rebote{
+	-moz-animation: 2.5s rebote infinite;
+	-webkit-animation: 2.5s rebote infinite;
+	-o-animation: 2.5s rebote infinite;
+}
+
+
+.chicle{
+	-moz-animation: 2.5s chicle infinite;
+	-webkit-animation: 2.5s chicle infinite;
+	-o-animation: 2.5s chicle infinite;
+}
+
+.giroX{
+	-moz-animation: 2.5s giroX infinite;
 	-moz-backface-visibility:visible;
-	-webkit-animation: 2.5s giroX 1;
+	-webkit-animation: 2.5s giroX infinite;
 	-webkit-backface-visibility:visible;
-	-o-animation: 2.5s giroX 1;
+	-o-animation: 2.5s giroX infinite;
 	-o-backface-visibility:visible;
 }
 
-.e5:hover{
-	-moz-animation: 2.5s giro 1;
+.giro3D{
+	-moz-animation: 2.5s giro infinite;
 	-moz-backface-visibility:visible;
-	-webkit-animation: 2.5s giro 1;
+	-webkit-animation: 2.5s giro infinite;
 	-webkit-backface-visibility:visible;
-	-o-animation: 2.5s giro 1;
+	-o-animation: 2.5s giro infinite;
 	-o-backface-visibility:visible;
 }
 
-.e6:hover{
-	-moz-animation: 2.5s salida 1;
-	-webkit-animation: 2.5s salida 1;
-	-o-animation: 2.5s salida 1;
+.salida{
+	-moz-animation: 2.5s salida infinite;
+	-webkit-animation: 2.5s salida infinite;
+	-o-animation: 2.5s salida infinite;
 }
 
-.e7:hover{
+.vibracionV{
 	-moz-animation: 5.5s vibracionV infinite;
 	-webkit-animation: 5.5s vibracionV infinite;
 	-o-animation: 5.5s vibracionV infinite;
 }
 
-.e8:hover{
+.vibracionH{
 	-moz-animation: 5.5s vibracionH infinite;
 	-webkit-animation: 5.5s vibracionH infinite;
 	-o-animation: 5.5s vibracionH infinite;
 }
 
-.e9:hover{
-	-moz-animation: 2.5s cartel 1;
+.cartel{
+	-moz-animation: 2.5s cartel infinite;
 	-moz-transform-origin:top center;
-	-webkit-animation: 2.5s cartel 1;
+	-webkit-animation: 2.5s cartel infinite;
 	-webkit-transform-origin:top center;
-	-o-animation: 2.5s cartel 1;
+	-o-animation: 2.5s cartel infinite;
 	-o-transform-origin:top center;
 }
 
-.e10:hover{
+.balanceo{
 	-moz-animation: 2.5s balanceo infinite;
 	-webkit-animation: 2.5s balanceo infinite;
 	-o-animation: 2.5s balanceo infinite;
 }
 
-.e11:hover{
+.vaiven{
 	-moz-animation: 2.5s vaiven infinite;
 	-webkit-animation: 2.5s vaiven infinite;
 	-o-animation: 2.5s vaiven infinite;
 }
 
-.e12:hover{
+.reboteIn{
 	-moz-animation: 1.5s reboteIn infinite;
 	-webkit-animation: 1.5s reboteIn infinite;
 	-o-animation: 1.5s reboteIn infinite;
 }
 
-.e13:hover{
-	-moz-animation: 1.5s click 1;
-	-webkit-animation: 1.5s click 1;
-	-o-animation: 1.5s click 1;
+.click{
+	-moz-animation: 1.5s click infinite;
+	-webkit-animation: 1.5s click infinite;
+	-o-animation: 1.5s click infinite;
 }
 
-.e14:hover{
+.giro{
 	-moz-transform-origin: center;
-	-moz-animation: 1.5s giroSimple 1;
+	-moz-animation: 1.5s giroSimple infinite;
 	-webkit-transform-origin: center;
-	-webkit-animation: 1.5s giroSimple 1;
+	-webkit-animation: 1.5s giroSimple infinite;
 	-o-transform-origin: center;
-	-o-animation: 1.5s giroSimple 1;
+	-o-animation: 1.5s giroSimple infinite;
 }
 
-.e15:hover{
-	-moz-animation: 1.5s rotativoIn 1;
-	-webkit-animation: 1.5s rotativoIn 1;
-	-o-animation: 1.5s rotativoIn 1;
+.rotativoIn{
+	-moz-animation: 1.5s rotativoIn infinite;
+	-webkit-animation: 1.5s rotativoIn infinite;
+	-o-animation: 1.5s rotativoIn infinite;
 }
 
-.e16:hover{
-	-moz-animation: 1.5s velozIn 1;
-	-webkit-animation: 1.5s velozIn 1;
-	-o-animation: 1.5s velozIn 1;
+.velozIn{
+	-moz-animation: 1.5s velozIn infinite;
+	-webkit-animation: 1.5s velozIn infinite;
+	-o-animation: 1.5s velozIn infinite;
 }
 
-.e17:hover{
-	-moz-animation: 1.5s velozOut 1;
-	-webkit-animation: 1.5s velozOut 1;
-	-o-animation: 1.5s velozOut 1;
+.velozOut{
+	-moz-animation: 1.5s velozOut infinite;
+	-webkit-animation: 1.5s velozOut infinite;
+	-o-animation: 1.5s velozOut infinite;
 }
 
-.e18:hover{
-	-moz-animation: 1.5s descolgado 1;
+.descolgado{
+	-moz-animation: 1.5s descolgado infinite;
 	-moz-transform-origin: top left;
-	-webkit-animation: 1.5s descolgado 1;
+	-webkit-animation: 1.5s descolgado infinite;
 	-webkit-transform-origin: top left;
-	-o-animation: 1.5s descolgado 1;
+	-o-animation: 1.5s descolgado infinite;
 	-o-transform-origin: top left;
 }
 
-.e19:hover{
-	-moz-animation: 2.5s aparicion 1;
-	-webkit-animation: 2.5s aparicion 1;
-	-o-animation: 2.5s aparicion 1;
+.aparicion{
+	-moz-animation: 2.5s aparicion infinite;
+	-webkit-animation: 2.5s aparicion infinite;
+	-o-animation: 2.5s aparicion infinite;
 }
 
-.arrow:before{
-	-moz-transition-duration: 0.3s;
-	-webkit-transition-duration: 0.3s;
-	-o-transition-duration: 0.3s;
-	content: '';
-	/*caracteristicas que forman el triangulo*/
-	border-color: 	transparent #547
-					transparent transparent;
-	border-style: solid;
-	border-width: 15px 15px 15px 0;
-	/*Posicionamiento del triangulo*/
-	left: 5px;
-	position: absolute;
-	top: 50%;
-	margin-top: -15px;
-}
-
-.arrow:before{
-	-moz-animation: 1.5s moverflecha infinite;
-	-webkit-animation: 1.5s moverflecha infinite;
-	-o-animation: 1.5s moverflecha infinite;
-}
-
-.e21:hover{
-	-moz-animation: 1.5s rotativoOut 1;
-	-webkit-animation: 1.5s rotativoOut 1;
-	-o-animation: 1.5s rotativoOut 1;
-}
-
-.e22{
-	-moz-transition: translateX(0);
-	-webkit-transition: translateX(0);
-	-o-transition: translateX(0);
-}
-
-.e22:hover{
-	-moz-transform: translateY(-6px);
-	-moz-animation: 2.5s movercaja infinite;
-	-webkit-transform: translateY(-6px);
-	-webkit-animation: 2.5s movercaja infinite;
-	-o-transform: translateY(-6px);
-	-o-animation: 2.5s movercaja infinite;
-}
-
-.e22:before{
-	position: absolute;
-	content: '';
-	top: 100%;
-	left:5%;
-	height: 10px;
-	width: 90%;
-	opacity: 1;
-	background: -moz-radial-gradient(center
-		ellipse, rgba(0, 0, 0, 0.35) 0%,
-				 rgba(0, 0, 0, 0) 80%);
-	-moz-transition-duration: 1.5s;
-	-webkit-transition-duration: 1.5s;
-	-o-transition-duration: 1.5s;
-}
-
-.e22:hover:before{
-	opacity: 0.4;
-	-moz-transform: translateY(6px);
-	-moz-animation: 2.5s moversombra infinite;
-	-webkit-transform: translateY(6px);
-	-webkit-animation: 2.5s moversombra infinite;
-	-o-transform: translateY(6px);
-	-o-animation: 2.5s moversombra infinite;
+.rotativoOut{
+	-moz-animation: 1.5s rotativoOut infinite;
+	-webkit-animation: 1.5s rotativoOut infinite;
+	-o-animation: 1.5s rotativoOut infinite;
 }
