@@ -3,82 +3,82 @@ function fjOption(vpOption){
     let Item = document.getElementById('item__demo');
 
     if(Option === 'Flash'){
-        Item.className = 'animacion1';
+        Item.className = 'flash';
     }
 
     if(Option === 'Rebote'){
-        Item.className = 'animacion2';
+        Item.className = 'rebote';
     }
 
     if(Option === 'Chicle'){
-        Item.className = 'animacion3';
+        Item.className = 'chicle';
     }
 
     if(Option === 'GiroX'){
-        Item.className = 'animacion4';
+        Item.className = 'giroX';
     }
 
     if(Option === 'Giro3D'){
-        Item.className = 'animacion5';
+        Item.className = 'giro3D';
     }
 
     if(Option === 'Salida'){
-        Item.className = 'animacion6';
+        Item.className = 'salida';
     }
 
     if(Option === 'VibracionV'){
-        Item.className = 'animacion7';
+        Item.className = 'vibracionV';
     }
 
     if(Option === 'VibracionH'){
-        Item.className = 'animacion8';
+        Item.className = 'vibracionH';
     }
 
     if(Option === 'Cartel'){
-        Item.className = 'animacion9';
+        Item.className = 'cartel';
     }
 
     if(Option === 'Balanceo'){
-        Item.className = 'animacion10';
+        Item.className = 'balanceo';
     }
 
     if(Option === 'Vaiven'){
-        Item.className = 'animacion11';
+        Item.className = 'vaiven';
     }
 
     if(Option === 'ReboteIn'){
-        Item.className = 'animacion12';
+        Item.className = 'reboteIn';
     }
 
     if(Option === 'Click'){
-        Item.className = 'animacion13';
+        Item.className = 'click';
     }
 
     if(Option === 'Giro'){
-        Item.className = 'animacion14';
+        Item.className = 'giro';
     }
 
     if(Option === 'RotativoIn'){
-        Item.className = 'animacion15';
+        Item.className = 'rotativoIn';
     }
 
     if(Option === 'VelozIn'){
-        Item.className = 'animacion16';
+        Item.className = 'velozIn';
     }
 
     if(Option === 'VelozOut'){
-        Item.className = 'animacion17';
+        Item.className = 'velozOut';
     }
 
     if(Option === 'Descolgado'){
-        Item.className = 'animacion18';
+        Item.className = 'descolgado';
     }
 
     if(Option === 'Aparicion'){
-        Item.className = 'animacion19';
+        Item.className = 'aparicion';
     }
 
     if(Option === 'RotativoOut'){
-        Item.className = 'animacion20';
+        Item.className = 'rotativoOut';
     }
 }

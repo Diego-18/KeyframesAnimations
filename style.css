@@ -195,26 +195,26 @@ nav{
 *	ANIMATIONES
 */
 
-.animacion1{
+.flash{
 	-moz-animation: 2s flash infinite;
     -webkit-animation: 2s flash infinite;
     -o-animation: 2s flash infinite;
 }
 
-.animacion2{
+.rebote{
 	-moz-animation: 2.5s rebote infinite;
 	-webkit-animation: 2.5s rebote infinite;
 	-o-animation: 2.5s rebote infinite;
 }
 
 
-.animacion3{
+.chicle{
 	-moz-animation: 2.5s chicle infinite;
 	-webkit-animation: 2.5s chicle infinite;
 	-o-animation: 2.5s chicle infinite;
 }
 
-.animacion4{
+.giroX{
 	-moz-animation: 2.5s giroX infinite;
 	-moz-backface-visibility:visible;
 	-webkit-animation: 2.5s giroX infinite;
@@ -223,7 +223,7 @@ nav{
 	-o-backface-visibility:visible;
 }
 
-.animacion5{
+.giro3D{
 	-moz-animation: 2.5s giro infinite;
 	-moz-backface-visibility:visible;
 	-webkit-animation: 2.5s giro infinite;
@@ -232,25 +232,25 @@ nav{
 	-o-backface-visibility:visible;
 }
 
-.animacion6{
+.salida{
 	-moz-animation: 2.5s salida infinite;
 	-webkit-animation: 2.5s salida infinite;
 	-o-animation: 2.5s salida infinite;
 }
 
-.animacion7{
+.vibracionV{
 	-moz-animation: 5.5s vibracionV infinite;
 	-webkit-animation: 5.5s vibracionV infinite;
 	-o-animation: 5.5s vibracionV infinite;
 }
 
-.animacion8{
+.vibracionH{
 	-moz-animation: 5.5s vibracionH infinite;
 	-webkit-animation: 5.5s vibracionH infinite;
 	-o-animation: 5.5s vibracionH infinite;
 }
 
-.animacion9{
+.cartel{
 	-moz-animation: 2.5s cartel infinite;
 	-moz-transform-origin:top center;
 	-webkit-animation: 2.5s cartel infinite;
@@ -259,31 +259,31 @@ nav{
 	-o-transform-origin:top center;
 }
 
-.animacion10{
+.balanceo{
 	-moz-animation: 2.5s balanceo infinite;
 	-webkit-animation: 2.5s balanceo infinite;
 	-o-animation: 2.5s balanceo infinite;
 }
 
-.animacion11{
+.vaiven{
 	-moz-animation: 2.5s vaiven infinite;
 	-webkit-animation: 2.5s vaiven infinite;
 	-o-animation: 2.5s vaiven infinite;
 }
 
-.animacion12{
+.reboteIn{
 	-moz-animation: 1.5s reboteIn infinite;
 	-webkit-animation: 1.5s reboteIn infinite;
 	-o-animation: 1.5s reboteIn infinite;
 }
 
-.animacion13{
+.click{
 	-moz-animation: 1.5s click infinite;
 	-webkit-animation: 1.5s click infinite;
 	-o-animation: 1.5s click infinite;
 }
 
-.animacion14{
+.giro{
 	-moz-transform-origin: center;
 	-moz-animation: 1.5s giroSimple infinite;
 	-webkit-transform-origin: center;
@@ -292,25 +292,25 @@ nav{
 	-o-animation: 1.5s giroSimple infinite;
 }
 
-.animacion15{
+.rotativoIn{
 	-moz-animation: 1.5s rotativoIn infinite;
 	-webkit-animation: 1.5s rotativoIn infinite;
 	-o-animation: 1.5s rotativoIn infinite;
 }
 
-.animacion16{
+.velozIn{
 	-moz-animation: 1.5s velozIn infinite;
 	-webkit-animation: 1.5s velozIn infinite;
 	-o-animation: 1.5s velozIn infinite;
 }
 
-.animacion17{
+.velozOut{
 	-moz-animation: 1.5s velozOut infinite;
 	-webkit-animation: 1.5s velozOut infinite;
 	-o-animation: 1.5s velozOut infinite;
 }
 
-.animacion18{
+.descolgado{
 	-moz-animation: 1.5s descolgado infinite;
 	-moz-transform-origin: top left;
 	-webkit-animation: 1.5s descolgado infinite;
@@ -319,13 +319,13 @@ nav{
 	-o-transform-origin: top left;
 }
 
-.animacion19{
+.aparicion{
 	-moz-animation: 2.5s aparicion infinite;
 	-webkit-animation: 2.5s aparicion infinite;
 	-o-animation: 2.5s aparicion infinite;
 }
 
-.animacion20{
+.rotativoOut{
 	-moz-animation: 1.5s rotativoOut infinite;
 	-webkit-animation: 1.5s rotativoOut infinite;
 	-o-animation: 1.5s rotativoOut infinite;
