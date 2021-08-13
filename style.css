@@ -94,10 +94,9 @@ nav{
 	flex-direction: column;
 	
 	width: 20%;
-	margin-right: 5px;
+	margin: 2% 3%;
 	height: 34rem;
 	overflow-y: auto;
-	background: #fff ;
 }
 
 .items__option{
@@ -161,11 +160,15 @@ nav{
 	.cont__demo {
 		width: 60%;
 	}
+
+	.cont__items{
+		padding: 5% 0%;
+	}
 }
 
 @media screen and (min-width: 950px){
 	.cont__demo{
-		/* padding: 15% 0%; */
+		padding: 15% 0%;
 	}
 }
 
@@ -183,11 +186,22 @@ nav{
 	}
 
 	.cont__items {
-		width: 95%;
+		flex-direction: row;
+		width: 100%;
+		height: auto;
 	}
 
 	.item__description{
 		display: none;
+	}
+
+	.items__option{
+		padding: 2% 10%;
+    	margin: 0% 3%;
+	}
+
+	.cont__items{
+		padding: 5% 0%;
 	}
 }
 
